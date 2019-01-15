@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 var fs = require('fs');
 
-var text = fs.readFileSync('../terms.txt', 'utf8');
+var text = fs.readFileSync('terms.txt', 'utf8');
 var words = text.split('\n', 10);
 var count = 0;
 var dords = [];
